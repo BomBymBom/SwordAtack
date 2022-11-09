@@ -1,0 +1,82 @@
+{
+    "name": "Input",
+    "maps": [
+        {
+            "name": "SwordControl",
+            "id": "77dc07a0-8f2c-4c71-96b7-fab8b9c413cc",
+            "actions": [
+                {
+                    "name": "DeltaTouch",
+                    "type": "PassThrough",
+                    "id": "f88195c5-e8af-45c5-adfd-fef48b7b952d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Touch&Drag",
+                    "type": "PassThrough",
+                    "id": "5ea76eeb-29b5-4820-90d7-efc941b5c14d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cf671ca0-7aa6-4d3a-92dc-3541a347a259",
+                    "path": "<Touchscreen>/delta",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DeltaTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "34bf8562-a871-4933-9c8b-a864c637175b",
+                    "path": "<Touchscreen>/primaryTouch/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touch&Drag",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "TomagawkControl",
+            "id": "fe9f2cc9-83a5-49a7-8f33-2fe45adfa5d1",
+            "actions": [
+                {
+                    "name": "Touched",
+                    "type": "Value",
+                    "id": "8871e2ad-82f6-4b18-9278-31acd7fe2063",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0e3207ef-0891-43ca-b1ef-4d4f7e2b7df4",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "Tap(duration=0.5,pressPoint=0.7)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

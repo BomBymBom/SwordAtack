@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 4b838fbfe4d59514795cb3185811700d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _gameController: {instanceID: 0}
+  - moneyParticle: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
