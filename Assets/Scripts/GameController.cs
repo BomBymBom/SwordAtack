@@ -50,14 +50,14 @@ public class GameController : MonoBehaviour
     {
         if (_gameIsStarted && _playerIsReadyToStart ==true) StartGame();
 
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            PlayerPrefs.DeleteAll();
-        }
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            AddMoney(10000);
-        }
+        //if (Input.GetKeyDown(KeyCode.Q))
+        //{
+        //    PlayerPrefs.DeleteAll();
+        //}
+        //if (Input.GetKeyDown(KeyCode.E))
+        //{
+        //    AddMoney(10000);
+        //}
     }
 
     public void StartGame()
